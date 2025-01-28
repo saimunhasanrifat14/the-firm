@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --yellow_color : #FACA10;
+    --text_black_color : #1E1E1E;
+    --bg_gray_one : #d4d4d4;
+    --bg_gray_two : #fbfbfb;
+    --bg_white_one : #fbfbfb;
+    --bg_white : #fff;
+}
+
+.container{
+    max-width: 1177px;
+    margin: auto;
+}
+@layer base {
+    *{
+        @apply m-0 p-0 outline-none box-border
+    }
+    ul,li{
+        @apply list-none
+    }
+    img{
+        @apply align-middle
+    }
+    a{
+        @apply inline-block no-underline;
+    }
+}
