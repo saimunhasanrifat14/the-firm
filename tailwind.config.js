@@ -12,7 +12,11 @@ export default {
         bg_gray_one : "var(--bg_gray_one)",
         bg_gray_two : "var(--bg_gray_two)",
         bg_white_one : "var(--bg_white_one)",
-        bg_white : "var(--bg_white)"
+        bg_white : "var(--bg_white)",
+      },
+      fontFamily:{
+        nunito : "var(--nunito)",
+        lora : "var(--lora)"
       }
     },
   },

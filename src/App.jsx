@@ -1,12 +1,13 @@
-import React from 'react'
-import Container from './assets/component/Container'
-
+import React from "react";
+import Header from "./component/Header";
+import Banner from "./component/banner";
 const App = () => {
   return (
-    <div className='bg-yellow_Color'>
-      
-    </div>
-  )
-}
+    <>
+      <Header></Header>
+      <Banner></Banner>
+    </>
+  );
+};
 
-export default App
+export default App;

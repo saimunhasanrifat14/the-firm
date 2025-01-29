@@ -9,6 +9,8 @@
     --bg_gray_two : #fbfbfb;
     --bg_white_one : #fbfbfb;
     --bg_white : #fff;
+    --nunito : "Nunito", serif;
+    --lora : "Lora", serif;
 }
 
 .container{
@@ -27,5 +29,24 @@
     }
     a{
         @apply inline-block no-underline;
+    }
+}
+@layer components {
+    .menuItem{
+        position: relative;
+    }
+    .menuItem::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 4px;
+        border-radius: 10px;
+        background-color: var(--yellow_color);
+        transition: all ease-in .2s;
+    }
+    .menuItem:hover::after{
+        width: 100%;
     }
 }
