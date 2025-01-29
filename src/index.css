@@ -49,4 +49,17 @@
     .menuItem:hover::after{
         width: 100%;
     }
+    .topTitle{
+        position: relative;
+    }
+    .topTitle::after {
+        position: absolute;
+        content: "";
+        right: 470px;
+        bottom: 5px;
+        width: 13%;
+        height: 5px;
+        border-radius: 10px;
+        background-color: var(--yellow_color);
+    }
 }
