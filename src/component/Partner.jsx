@@ -9,7 +9,7 @@ const Partner = () => {
   return (
     <Container>
         <div>
-            <h3 className='topTitle text-[40px] font-black text-text_black_color text-center font-nunito mb-[50px] mt-[100px]'>Our Partner</h3>
+            <h3 className='text-[40px] font-black text-text_black_color text-center font-nunito mb-[50px] mt-[100px]'>Our <span className='heading'>Partner</span></h3>
             <div className='flex justify-between mb-[100px]'>
                 <div className="w-[240px] h-[120px] rounded-lg bg-bg_gray_two flex justify-center items-center">
                     <picture>
