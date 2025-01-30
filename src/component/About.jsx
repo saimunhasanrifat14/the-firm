@@ -3,6 +3,7 @@ import Container from "./CommonComponent/Container";
 import Button2 from "./CommonComponent/Button2";
 import brendingBanner from "../assets/branding.png";
 import brendingLogo from "../assets/brandingLogo.png";
+import Button3 from "./CommonComponent/Button3";
 
 const About = () => {
   return (
@@ -43,12 +44,13 @@ const About = () => {
                 {" "}
                 <span className="heading">Branding</span>
               </h3>
-              <p className="text-[18px] font-normal mb-[44px] font-lora mb-[40px]">
+              <p className="text-[18px] font-normal font-lora mb-[30px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of
                 type
               </p>
+              <Button3 btnContent={'Read More'}></Button3>
             </div>
           </div>
         </div>
