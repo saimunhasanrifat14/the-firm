@@ -11,6 +11,7 @@ export default {
         text_black_color : "var(--text_black_color)",
         bg_gray_one : "var(--bg_gray_one)",
         bg_gray_two : "var(--bg_gray_two)",
+        bg_gray_three : "var(--bg_gray_three)",
         bg_white_one : "var(--bg_white_one)",
         bg_white : "var(--bg_white)",
       },

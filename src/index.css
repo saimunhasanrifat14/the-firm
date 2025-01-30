@@ -7,6 +7,7 @@
     --text_black_color : #1E1E1E;
     --bg_gray_one : #d4d4d4;
     --bg_gray_two : #fbfbfb;
+    --bg_gray_three : #F2F2F2;
     --bg_white_one : #fbfbfb;
     --bg_white : #fff;
     --nunito : "Nunito", serif;
@@ -62,4 +63,47 @@
         border-radius: 10px;
         background-color: var(--yellow_color);
     }
+    .button2{
+        position: relative;
+        transition: all linear .2s;
+    }
+    .button2:hover{
+        background-color: var(--yellow_color);
+        color: white;
+    }
+    .button2::before{
+        position: absolute;
+        content: "";
+        width: 0px;
+        height: 0px;
+        background-color: var(--yellow_color);
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        transition: all ease-out .2s;
+    }
+    .button2::after{
+        position: absolute;
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-radius: 50%;
+        background-color: var(--yellow_color);
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        transition: all ease-out .2s;
+    }
+    .button2:hover::before{
+        left: -35px;
+        width: 40px;
+        height: 3px;
+    }
+    .button2:hover::after{
+        left: -40px;
+        width: 20px;
+        height: 20px;
+
+    }
+
 }
