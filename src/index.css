@@ -106,4 +106,10 @@
 
     }
 
+    .contactForm{
+        left: 50%;
+        bottom: -250px;
+        transform: translateX(-50%);
+    }
+
 }

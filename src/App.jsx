@@ -5,6 +5,7 @@ import Partner from "./component/Partner";
 import Clients from "./component/Clients";
 import Idea from "./component/Idea";
 import About from "./component/About";
+import Contact from "./component/Contact"
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
       <Clients></Clients>
       <Idea></Idea>
       <About></About>
+      <Contact></Contact>
     </>
   );
 };
