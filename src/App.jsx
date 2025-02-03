@@ -1,4 +1,6 @@
 import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Header from "./component/Header";
 import Banner from "./component/banner";
 import Partner from "./component/Partner";

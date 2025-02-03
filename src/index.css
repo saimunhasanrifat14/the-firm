@@ -111,5 +111,11 @@
         bottom: -250px;
         transform: translateX(-50%);
     }
+    
+    .sliderItem{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
