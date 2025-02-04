@@ -117,5 +117,29 @@
         align-items: center;
         justify-content: center;
     }
+    .studie_slide{
+        position: relative;
+    }
+    .studie_slide::before{
+        position: absolute;
+        content: "";
+        bottom: -50px;
+        left: -50px;
+        width: 110px;
+        height: 110px;
+        background-color: var(--yellow_color);
+        border-radius: 50%;
+        opacity: 40%;
+        z-index: -5;
+    }
+    .slider-item{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 471px;
+    }
+    .slider-perent{
+        width: 471px;
+    }
 
 }

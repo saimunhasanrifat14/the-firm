@@ -7,19 +7,21 @@ import Partner from "./component/Partner";
 import Clients from "./component/Clients";
 import Idea from "./component/Idea";
 import About from "./component/About";
+import Studies from "./component/Studies";
 import Contact from "./component/Contact"
 import Footer from "./component/Footer";
 const App = () => {
   return (
     <>
-      <Header></Header>
-      <Banner></Banner>
-      <Partner></Partner>
-      <Clients></Clients>
-      <Idea></Idea>
-      <About></About>
-      <Contact></Contact>
-      <Footer></Footer>
+      <Header/>
+      <Banner/>
+      <Partner/>
+      <Clients/>
+      <Idea/>
+      <About/>
+      <Studies/>
+      <Contact/>
+      <Footer/>
     </>
   );
 };
