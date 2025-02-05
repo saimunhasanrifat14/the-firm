@@ -8,6 +8,7 @@ import Clients from "./component/Clients";
 import Idea from "./component/Idea";
 import About from "./component/About";
 import Studies from "./component/Studies";
+import Testimonials from "./component/Testimonials";
 import Contact from "./component/Contact"
 import Footer from "./component/Footer";
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Idea/>
       <About/>
       <Studies/>
+      <Testimonials/>
       <Contact/>
       <Footer/>
     </>
